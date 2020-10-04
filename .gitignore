@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,android,androidstudio,java,intellij,gradle,webstorm
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,android,androidstudio,java,intellij,gradle,webstorm
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,android,androidstudio,java,intellij,gradle,webstorm
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,android,androidstudio,java,intellij,gradle,webstorm
 
 ### Android ###
 # Built application files
@@ -236,6 +236,34 @@ hs_err_pid*
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 ### WebStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -416,11 +444,7 @@ obj/
 .idea/jarRepositories.xml
 
 # OS-specific files
-.DS_Store
 .DS_Store?
-._*
-.Spotlight-V100
-.Trashes
 
 # Legacy Eclipse project files
 .classpath
@@ -449,4 +473,4 @@ obj/
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,windows,android,androidstudio,java,intellij,gradle,webstorm
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,android,androidstudio,java,intellij,gradle,webstorm
